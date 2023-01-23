@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeFlow Übung lev2_2: conditional-statements-air-quality</title>
+</head>
+<body>
+    <main>
+        <h1>Luftqualität</h1>
+        <form onsubmit="return false">
+            <label for="aqi">AQI</label>
+            <input type="range" name="aqi" id="aqi" onclick="checkAirQuality()" min="0" max="150">
+            <p id="healthConcern">Level of health concern: </p>
+            <p id="healthEffect">Level of health effect: </p>
+        </form>
+    </main>
+
+
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
